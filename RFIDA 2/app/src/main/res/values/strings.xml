@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RFIDA</string>
+    <string name="wykonane_zadania">Wykonane zadania</string>
+    <string name="taskname">TaskName</string>
+    <string name="time_and_date">Time and date</string>
+    <string name="card">Card</string>
+    <string name="time">Time</string>
+    <string name="tytul">Zdalny system kontroli wykonywanych zadań</string>
+    <string name="lista">Lista wykonanych zadań</string>
+</resources>

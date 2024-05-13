@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/idCVCOurseItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="#A12D877E"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <!--Textview for displaying our Course Name-->
+        <TextView
+            android:id="@+id/idTVTaskName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="@string/taskname"
+            android:textColor="@color/teal_700"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textAlignment="center"
+            android:text="CZAS, DATA, KARTA"
+            android:textColor="@color/teal_700"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            />
+        <!--Textview for displaying our Course Duration-->
+        <TextView
+            android:id="@+id/idTVTaskTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="@string/time"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/idTVTaskDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Date"
+            android:textColor="@color/black" />
+
+        <!--Textview for displaying our Course Description-->
+        <TextView
+            android:id="@+id/idTVCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="@string/card"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
