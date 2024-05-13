@@ -1,2 +1,4 @@
 # remoteContolSystem
 System do bezprzewodowej kontroli wykonania zadań obsługiwany z poziomu telefonu komórkowego
+
+Istotą problemu jest potrzeba skutecznego monitorowania postępu prac w różnych środowiskach, zwłaszcza w kontekście osób chorych z trudnością wykonywania podstawowych zadań w ciągu dnia. Nowoczesne podejście, jakie zaproponowano, może znacząco poprawić efektywność monitorowania wykonanych zadań na odległość. W ramach rozwiązania problemu, wykorzystano technologię RFID do identyfikacji i śledzenia zadań, a platformę ESP32 do zbierania danych, które są wysyłane na serwer FIRESTORE i komunikacji z aplikacją na system Android. Aplikacja stanowi interfejs użytkownika, umożliwiając intuicyjne monitorowanie postępu prac w czasie rzeczywistym oraz analizę zebranych informacji. Ostatecznym efektem jest opracowanie kompleksowego systemu umożliwiającego szybkie, precyzyjne i niezawodne zarządzanie zadaniami na odległość.
